@@ -1,0 +1,22 @@
+img {
+  width: 20vw;
+  height: 20vh;
+}
+
+.land-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20vh;
+  left: 25vw;
+}
+
+h1 {
+  font-family: var(--header-font);
+  background: linear-gradient(120deg, var(--button-secondary) 65%, var(--accent-one));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: var(--shadow) 2px 2px 2px 2px;
+}

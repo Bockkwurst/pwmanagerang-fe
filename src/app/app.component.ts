@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {InfoboxComponent} from "./infobox/infobox.component";
 import {DefaultButtonComponent} from "./default-button/default-button.component";
+import {LandingHeadComponent} from "./landing-head/landing-head.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, InfoboxComponent, DefaultButtonComponent],
+  imports: [RouterOutlet, InfoboxComponent, DefaultButtonComponent, LandingHeadComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

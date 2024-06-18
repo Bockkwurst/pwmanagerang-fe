@@ -2,7 +2,7 @@
 
 .infobox {
   border: 1px solid black;
-  box-shadow: 3px 3px 3px 3px dimgray;
+  box-shadow: 3px 3px 3px 3px var(--shadow);
   margin: 0;
   padding: 0;
   width: 70vw;
@@ -11,10 +11,10 @@
   position: absolute;
   top: 60vh;
   left: 15vw;
-  background: var(--bg-primary);
+  background: var(--dark-primary);
 }
 
 .infobox-text {
   font-family: var(--primary-font);
-  color: var(--secondary-font-color);
+  color: var(--light-primary);
 }

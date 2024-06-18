@@ -9,29 +9,22 @@
 }
 
 :root {
-  --clr-light: #fdffc4;
-  --clr-dark: #00332a;
-  --clr-primary: #dbffa2;
-  --clr-secondary: #c3fcf2;
-  --clr-accent: #ff7750;
-  --clr-shadow: #1e1e1e;
-
-  --foreground: var(--clr-dark);
-  --background: var(--clr-light);
-
   --header-font: 'glitch', sans-serif;
   --secondary-header-font: 'pirulen', sans-serif;
   --primary-font: 'Roboto', sans-serif;
-  --primary-font-color: #ff4400;
-  --secondary-font-color: #fac468;
-  --tertiary-font-color: silver;
 
-  --text-primary: hsl(187, 100%, 73%);
-  --text-secondary: hsl(185, 53%, 34%);
-  --bg-primary: hsl(194, 100%, 21%);
-  --bg-secondary: hsla(191, 100%, 12%, 0.68);
+
+  --light-primary: hsl(187, 100%, 73%);
+  --light-secondary: hsl(185, 53%, 34%);
+  --dark-primary: hsl(194, 100%, 21%);
+  --dark-secondary: hsla(191, 100%, 12%, 0.68);
+  --button-primary: hsl(198, 100%, 16%);
+  --button-secondary: hsl(166, 100%, 8%);
+  --accent-one: #C9AC89;
+  --accent-two: #C98C42;
+  --shadow: rgba(47, 35, 28, 0.68);
   --transition-speed: 600ms;
 
-  --message-success: #00ff00;
-  --message-error: #ff0000;
+  --message-success: #9bf89b;
+  --message-error: #f88a8a;
 }
