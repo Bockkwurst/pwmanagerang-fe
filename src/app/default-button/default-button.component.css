@@ -16,15 +16,26 @@ button {
   left: 50vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .login-button {
     top: 82vh;
-    left: 37vw;
+    left: 44.5vw;
   }
 
   .register-button {
     top: 90vh;
-    left: 32vw;
+    left: 42vw;
+  }
+}
+@media (max-width: 600px) {
+  .login-button {
+    top: 82vh;
+    left: 40vw;
+  }
+
+  .register-button {
+    top: 90vh;
+    left: 37vw;
   }
 }
 
