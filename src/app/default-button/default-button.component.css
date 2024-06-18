@@ -1,0 +1,15 @@
+.login-button {
+  position: absolute;
+  top: 90vh;
+  left: 40vw;
+}
+
+.register-button {
+  position: absolute;
+  top: 90vh;
+  left: 50vw;
+}
+
+.example-button-row {
+  color: var(--bg-secondary);
+}

@@ -1,0 +1,20 @@
+
+
+.infobox {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px dimgray;
+  margin: 0;
+  padding: 0;
+  width: 70vw;
+  max-height: 20vh;
+  overflow: scroll;
+  position: absolute;
+  top: 60vh;
+  left: 15vw;
+  background: var(--bg-primary);
+}
+
+.infobox-text {
+  font-family: var(--primary-font);
+  color: var(--secondary-font-color);
+}
