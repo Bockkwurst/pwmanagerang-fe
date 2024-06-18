@@ -9,8 +9,11 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 20vh;
-  left: 25vw;
+  top: 0;
+  bottom: 20vh;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 h1 {
@@ -19,4 +22,10 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: var(--shadow) 2px 2px 2px 2px;
+  font-size: 5vw;
+}
+
+h3 {
+  font-family: var(--secondary-header-font);
+  font-size: 3vw;
 }
