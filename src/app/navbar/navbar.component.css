@@ -1,10 +1,11 @@
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
   background-color: var(--dark-primary);
   color: var(--accent-one);
+  list-style: none;
 }
 
 .navbar-brand {
@@ -19,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  text-decoration: none;
+
 }
 
 .navbar-link {
@@ -27,6 +28,7 @@
   font-size: 1.2em;
   color: var(--accent-one);
   padding: 0.5em;
+  text-decoration: none;
 }
 
 .navbar-link:hover {

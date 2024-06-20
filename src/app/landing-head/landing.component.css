@@ -9,7 +9,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 0;
+  top: 60px;
   bottom: 20vh;
   left: 0;
   right: 0;
@@ -28,4 +28,32 @@ h1 {
 h3 {
   font-family: var(--secondary-header-font);
   font-size: 3vw;
+}
+
+
+
+.infobox {
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px var(--shadow);
+  margin: 0;
+  padding: 0;
+  width: 70vw;
+  height: 20vh;
+  overflow: scroll;
+  position: absolute;
+  top: 60vh;
+  left: 15vw;
+  background: var(--dark-primary);
+}
+
+.infobox-text {
+  font-family: var(--primary-font);
+  color: var(--light-primary);
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  resize: none;
+  overflow: auto;
+  overflow-y: scroll;
 }
