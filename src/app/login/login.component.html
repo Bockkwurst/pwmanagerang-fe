@@ -1,1 +1,10 @@
-<p>login works!</p>
+<div class="login">
+  <h1 class="login-title">Login</h1>
+  <div class="login-inner">
+    <form>
+      <input class="login-form" type="text" placeholder="Username" [(ngModel)]="username" name="username" required />
+      <input class="login-form" type="password" placeholder="Password" [(ngModel)]="password" name="password" required/>
+      <app-default-button buttonText="Login" buttonClass="login" />
+    </form>
+  </div>
+</div>
