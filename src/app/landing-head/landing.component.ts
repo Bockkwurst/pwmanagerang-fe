@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 import {DefaultButtonComponent} from "../default-button/default-button.component";
 
@@ -21,4 +21,5 @@ export class LandingComponent {
   onRegisterClick() {
     console.log('Register clicked');
   }
+
 }
