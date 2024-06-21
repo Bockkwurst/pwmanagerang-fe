@@ -22,7 +22,7 @@ h1 {
   background: linear-gradient(120deg, var(--button-secondary) 65%, var(--accent-one));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: var(--shadow) 2px 2px 2px 2px;
+  text-shadow: var(--shadow) 3px 3px 3px 3px;
   max-font-size: 5vw;
 }
 
