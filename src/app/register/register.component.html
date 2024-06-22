@@ -1,1 +1,58 @@
-<p>register works!</p>
+<div class="register">
+  <h1 class="register-title">Registrieren</h1>
+  <div class="register-card-body">
+    <form (ngSubmit)="onSubmitReg()" #registerForm="ngForm">
+      <div class="register-group">
+        <label for="username">Username</label>
+        <input type="text" [(ngModel)]="user.username"
+               class="register-control"
+               id="username"
+               name="username"
+               placeholder="Username"
+               required #username="ngModel">
+      </div>
+      <div [hidden]="!username.pristine" class="alert alert-danger">Username muss eingegeben werden</div>
+      <div class="register-group">
+        <label for="firstName">Vorname</label>
+        <input type="text" [(ngModel)]="user.firstName"
+               class="register-control"
+               id="firstName"
+               name="firstName"
+               placeholder="Vorname"
+               required #firstName="ngModel">
+      </div>
+      <div class="register-group">
+        <label for="firstName">Nachname</label>
+        <input type="text" [(ngModel)]="user.lastName"
+               class="register-control"
+               id="lastName"
+               name="lastName"
+               placeholder="Nachname"
+               required #lastName="ngModel">
+      </div>
+      <div class="register-group">
+        <label for="email">Email</label>
+        <input type="text" [(ngModel)]="user.email"
+               class="register-control"
+               id="email"
+               name="email"
+               placeholder="Email"
+               required #email="ngModel"
+        >
+      </div>
+      <div [hidden]="!email.pristine" class="alert alert-danger">Email muss eingegeben werden</div>
+      <div class="register-group">
+        <label for="password">Passwort</label>
+        <input type="password" [(ngModel)]="user.password"
+               class="register-control"
+               id="password"
+               name="password"
+               placeholder="Passwort"
+               required #password="ngModel">
+      </div>
+      <div [hidden]="!password.pristine" class="alert alert-danger">Passwort muss eingegeben werden</div>
+      <app-default-button type="submit" [buttonText]="'Registrieren'" [buttonClass]="'register-button'"
+                          (buttonClick)="onSubmitReg()"></app-default-button>
+    </form>
+  </div>
+</div>
