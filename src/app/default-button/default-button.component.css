@@ -1,41 +1,46 @@
-button {
-  background-color: var(--button-primary) !important;
-  color: var(--accent-one) !important;
-  box-shadow: var(--shadow) 2px 2px 2px 2px !important;
+.default-button-container {
+  margin: 10px;
 }
 
-.login-button {
-  position: absolute;
-  top: 90vh;
-  left: 40vw;
+.buttonClass {
+  display: flex;
+  font: inherit;
+  padding: 0.75em 3em;
+  background: var(--button-primary);
+  border: 0.1em solid var(--button-secondary);
+  border-radius: 100vw;
+  cursor: pointer;
+  transition: background-color 250ms;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: var(--accent-one);
+  font-family: var(--secondary-header-font);
+  box-shadow: 3px 3px 3px 3px var(--shadow);
 }
 
-.register-button {
-  position: absolute;
-  top: 90vh;
-  left: 50vw;
+.buttonClass:hover,
+.buttonClass:focus-visible {
+  background: var(--light-secondary);
 }
 
-@media (max-width: 880px) {
-  .login-button {
-    top: 82vh;
-    left: 44.5vw;
-  }
-
-  .register-button {
-    top: 90vh;
-    left: 42vw;
-  }
+.buttonClass > span {
+  z-index: -1;
+  width: 33.333%;
+  height: 100%;
+  background: transparent;
+  opacity: .5;
 }
+
+.buttonClass:active {
+  box-shadow: 3px 3px 3px 3px inset var(--shadow);
+}
+
 @media (max-width: 600px) {
-  .login-button {
-    top: 82vh;
-    left: 40vw;
+  .buttonClass {
+    scale: 70%;
   }
-
-  .register-button {
-    top: 90vh;
-    left: 37vw;
+  .default-button-container{
+    margin: 0;
   }
 }
-

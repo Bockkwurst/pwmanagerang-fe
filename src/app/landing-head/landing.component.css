@@ -1,18 +1,21 @@
+:host {
+  flex: 1;
+}
+
 img {
   width: 20vw;
   height: 20vh;
 }
-
-.land-container {
-  position: absolute;
+.landing-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.land-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  top: 60px;
-  bottom: 20vh;
-  left: 0;
-  right: 0;
   margin: auto;
   padding: 2%;
 }
@@ -30,7 +33,6 @@ h3 {
   font-family: var(--secondary-header-font);
   max-font-size: 3vw;
 }
-
 
 
 .infobox {
@@ -59,7 +61,7 @@ h3 {
   overflow-y: scroll;
 }
 
-@media (max-width: 841px){
+@media (max-width: 841px) {
   h1 {
     font-size: 4.5vw;
   }
@@ -69,7 +71,7 @@ h3 {
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   h1 {
     font-size: 3.5vw;
   }
@@ -77,4 +79,16 @@ h3 {
   h3 {
     font-size: 2vw;
   }
+
+  .buttons{
+    margin: 15px;
+  }
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20vh;
 }

@@ -93,3 +93,9 @@
     margin: 20px 0;
   }
 }
+
+@media (max-width: 600px) {
+  .nav-brand {
+    font-size: 80%;
+  }
+}

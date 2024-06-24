@@ -9,21 +9,22 @@
 
       <h4>
         First Deploy!
-      </h4><p>
-      Ich freue mich, nun endlich die erste Version meines zukünftigen Passwort Managers online zu stellen.
-      <br/>
-      Bisher steht nur die Landing Page auf der du gerade bist zur verfügung,<br/>
-      aber die Links der Navbar funktionieren bereits und führen dich zu den entsprechenden Seiten.<br/>
-      Ich arbeite mit Hochdruck an der Fertigstellung der Registrierung, des Logins und dem Deployment der
-      Datenbank<br/>
-      und des Backends. Ich hoffe, dass ich bald die nächsten Schritte des Passwort Managers online stellen kann.<br/>
+      </h4>
+      <p>
+        Ich freue mich, nun endlich die erste Version meines zukünftigen Passwort Managers online zu stellen.
+        <br/>
+        Bisher steht nur die Landing Page auf der du gerade bist zur verfügung,<br/>
+        aber die Links der Navbar funktionieren bereits und führen dich zu den entsprechenden Seiten.<br/>
+        Ich arbeite mit Hochdruck an der Fertigstellung der Registrierung, des Logins und dem Deployment der
+        Datenbank<br/>
+        und des Backends. Ich hoffe, dass ich bald die nächsten Schritte des Passwort Managers online stellen kann.<br/>
       </p>
     </div>
   </div>
   <div class="buttons">
-    <app-default-button [buttonText]="'Login'" [buttonClass]="'login-button'"
+    <app-default-button class="login-button" [buttonText]="'Login'" [buttonClass]="'login-button'"
                         (buttonClick)="onLoginClick()"></app-default-button>
-    <app-default-button [buttonText]="'Registrieren'" [buttonClass]="'register-button'"
+    <app-default-button class="register-button" [buttonText]="'Registrieren'" [buttonClass]="'register-button'"
                         (buttonClick)="onRegisterClick()"></app-default-button>
   </div>
 </div>
